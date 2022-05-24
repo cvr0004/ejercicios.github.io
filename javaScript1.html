@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="texto">Soy un texto que cambia de color</p>
+
+    <input type="button" value="a rojo" onclick="aRojo()"/>
+    <input type="button" value="a naranja" onclick="aNaranja()"/>
+    <input type="button" value="a azul" onclick="aAzul()"/>
+
+    <script>
+        //aRojo();
+        //aNaranja();
+        //aAzul()
+
+        function aRojo() {
+            document.getElementById("texto").style.color = "red";
+        }
+        function aNaranja() {
+            document.getElementById("texto").style.color = "orange";
+        }
+        function aAzul() {
+            document.getElementById("texto").style.color = "blue";
+        }
+
+
+    </script>
+</body>
+</html>

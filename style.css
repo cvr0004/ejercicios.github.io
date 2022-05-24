@@ -1,0 +1,93 @@
+
+.Titulo {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+body {
+    background: rgb(238,174,202);
+    background: linear-gradient(297deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    
+}
+.padre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;       
+}
+
+.hijo{
+    background-color: #ccffff;
+    color: #e6ccff;
+    flex: 33.33%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 10px;
+    padding: 20px;
+}
+ .hijo1 {
+
+    border-style: dotted;
+    
+}
+
+.hijo2 {
+
+    border-style: dashed;
+}
+.hijo3 {
+
+    border-style: groove;
+}
+.hijo4 {
+
+    border-style: double;
+    
+}
+.hijo5 {
+
+    border-style:inset; 
+}
+.hijo5 {
+
+    border-style: dotted;
+}
+.hijo6 {
+
+    border-style: double; 
+}
+.hijo7 {
+
+    border-style: dotted;
+}
+.hijo8 {
+
+    border-style:inset; 
+}
+.hijo9 {
+
+    border-style: double;
+}
+.hijo10 {
+
+    border-style: groove;
+}
+.hijo11 {
+
+    border-style: dashed;
+}
+.hijo12 {
+
+    border-style: dotted;
+} 
+
+.piedePagina {
+    text-align: center;
+}
+
+.imagen {
+    padding: 5px;
+    height: 150px;
+    margin-top: 140px;
+}

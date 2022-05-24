@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+            // Ejercicio 1 Arrays
+
+        //    let nombres = [];
+        //    let numero = parseInt(prompt("Ingresa un número: ")); 
+
+        //    for (let i=0; i<numero; i++) {
+        //      let nombre = prompt("Ingresa un nombre:", "");
+        //         nombres.push(nombre);
+        //    }
+           
+        //    alert(nombres);
+
+
+      // Ejercicio 2 Arrays
+
+      let texto = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quisquam temporibus reiciendis nulla,"+
+"sed dicta nihil eligendi deserunt vitae culpa facilis? Distinctio cum commodi saepe recusandae incidunt"+
+"enim ipsa pariatur!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quisquam temporibus reiciendis nulla,"+
+"sed dicta nihil eligendi deserunt vitae culpa facilis? Distinctio cum commodi saepe recusandae incidunt"+
+"enim ipsa pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quisquam temporibus reiciendis nulla,"+
+"sed dicta nihil eligendi deserunt vitae culpa facilis? Distinctio cum commodi saepe recusandae incidunt"+
+"enim ipsa pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quisquam temporibus reiciendis nulla,"+
+"sed dicta nihil eligendi deserunt vitae culpa facilis? Distinctio cum commodi saepe recusandae incidunt"+
+"enim ipsa pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quisquam temporibus reiciendis nulla,"+
+"sed dicta nihil eligendi deserunt vitae culpa facilis? Distinctio cum commodi saepe soyunapalabraescondida incidunt"+
+"enim ipsa pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quisquam temporibus reiciendis nulla,"+
+"sed dicta nihil eligendi deserunt vitae culpa facilis? Distinctio cum commodi saepe recusandae incidunt"+
+"enim ipsa pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quisquam temporibus reiciendis nulla,"+
+"sed dicta nihil eligendi deserunt vitae culpa facilis? Distinctio cum commodi saepe recusandae incidunt"+
+"enim ipsa pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quisquam temporibus reiciendis nulla,"+
+"sed dicta nihil eligendi deserunt vitae culpa facilis? Distinctio cum commodi saepe recusandae incidunt"+
+"enim ipsa pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quisquam temporibus reiciendis nulla,"+
+"sed dicta nihil eligendi deserunt vitae culpa facilis? Distinctio cum commodi saepe recusandae incidunt"+
+"enim ipsa pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quisquam temporibus patata nulla,"+
+"sed dicta nihil eligendi deserunt vitae culpa facilis? Distinctio cum commodi saepe recusandae incidunt"; 
+
+    //    let totalA = 0;
+    //    let totalE = 0;
+    //    let totalI = 0;
+    //    let totalO = 0;
+    //    let totalU = 0;
+       
+       
+
+    //    for (let i=0; i<texto.length; i++) {
+    //        //contando vocales
+    //        switch (texto.toLowerCase().charAt(i)){
+    //            case 'a': 
+    //            totalA++;
+    //            break;
+    //         case 'e':
+    //             totalE++;
+    //             break;
+    //         case 'i': 
+    //            totalI++;
+    //            break;
+    //         case 'o': 
+    //            totalO++;
+    //            break;
+    //         case 'u': 
+    //            totalU++;
+    //            break;
+    //        }S
+    //    }
+
+    //    console.log(totalA);
+    //    console.log(totalE);
+    //    console.log(totalI);
+    //    console.log(totalO);
+    //    console.log(totalU);
+
+
+    //    let textoArray = texto.split(" ");
+    //    let palabraCorta= "textoArray[0]";
+    //    let palabraLarga = "";
+    //    for (let i=0; i<textoAarray.length; i++) {
+    //        //comprobando la palabra larga
+    //        if(textoArray[i].length > palabraLarga.length) {
+    //            palabraLarga = textoArray[i];
+    //        }
+
+    //        //comprobando la palabra corta
+    //        if(textoArray[i].length < palabraCorta.length) {
+    //            palabraCorta = textoArray[i];
+    //    }
+    // }
+    //    // Ejercicio 3 Arrays
+
+    //  alert(texto.indexOf("patata"));
+
+    let nombres= ["Cristina", "Sergio", "Carla", "Alvaro", "Ayman"];
+    let pos1 = 0;
+    let pos2 = 0;
+    do {
+        pos1 = parseInt(prompt("Dime a primera posición"));
+
+    } while (pos1<0 || pos1>=nombres.length);
+    
+    do {
+        pos2 = parseInt(prompt("Dime a segunda posición"));
+        
+    } while (pos2<0 || pos1>=nombres.length);
+
+    let aux = nombres[pos1];
+    nombres[pos1] = nombres[pos2];
+    nombres[pos2] = aux;
+
+    alert(nombres);
+
+
+
+    // </script>
+</body>
+</html>

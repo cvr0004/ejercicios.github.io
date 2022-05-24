@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label,
+        input {
+            display: block;
+        }
+        input[type="text"] {
+            width: 100%;
+            border: 1px black solid;
+            background-color: rgb(206, 203, 203);
+
+        }
+
+        input[type="password"] {
+            width: 100%;
+            border: 1px blue solid;
+            background-color: aquamarine;
+            
+        }
+
+        input[type="text"]:focus {
+            background-color: black;
+            color: white;
+        }
+
+        input[type="password"]:focus {
+            background-color: orange;
+            color: red;
+        }
+    
+
+
+    </style>
+</head>
+<body>
+
+<form>
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" placeholder="escriba aquí su nombre">
+    <label for="contraseña">Contraseña</label>
+    <input type="password" id="contraseña" placeholder="escriba aquí su contraseña">
+</form>
+    
+</body>
+</html>

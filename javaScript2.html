@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="primerNumero" required placeholder="Inserte el primer número">
+    <input type="number" id="segundoNumero" required placeholder="Inserte el segundo número">
+    <br><br>
+
+    <input type="button" value="sumar" onclick="sumar()"/>
+    <input type="button" value="restar" onclick="restar()"/>
+    <input type="button" value="dividir" onclick="dividir()"/>
+    <input type="button" value="multiplicar" onclick="multiplicar()"/>
+    <input type="button" value="modulo" onclick="modulo()"/>
+
+    <p id="texto"></p>
+
+
+
+    <script>
+        
+    
+        function sumar() {
+            const numero1 = document.getElementById('primerNumero').value;
+            const numero2 = document.getElementById('segundoNumero').value;
+            const uno = parseInt(numero1)
+            const dos = parseInt(numero2)
+            let resultado = document.getElementById("texto").innerHTML= "El resultado es: " + (uno + dos);
+            return resultado;
+        }
+
+        function restar() {
+            const numero1 = document.getElementById('primerNumero').value;
+            const numero2 = document.getElementById('segundoNumero').value;
+            const uno = parseInt(numero1)
+            const dos = parseInt(numero2)
+            let resultado = document.getElementById("texto").innerHTML= "El resultado es: " + (uno - dos);
+            return resultado;
+        }
+
+        function dividir() {
+            const numero1 = document.getElementById('primerNumero').value;
+            const numero2 = document.getElementById('segundoNumero').value;
+            const uno = parseInt(numero1)
+            const dos = parseInt(numero2)
+            let resultado = document.getElementById("texto").innerHTML= "El resultado es: " + (uno / dos);
+            return resultado;
+        }
+
+        function multiplicar() {
+            const numero1 = document.getElementById('primerNumero').value;
+            const numero2 = document.getElementById('segundoNumero').value;
+            const uno = parseInt(numero1)
+            const dos = parseInt(numero2)
+            let resultado = document.getElementById("texto").innerHTML= "El resultado es: " + (uno * dos);
+            return resultado;
+        }
+
+        function modulo() {
+            const numero1 = document.getElementById('primerNumero').value;
+            const numero2 = document.getElementById('segundoNumero').value;
+            const uno = parseInt(numero1)
+            const dos = parseInt(numero2)
+            let resultado = document.getElementById("texto").innerHTML= "El resultado es: " + (uno % dos);
+            return resultado;
+        }
+
+    </script>
+    
+</body>
+</html>

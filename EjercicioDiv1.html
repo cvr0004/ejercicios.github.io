@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        body {
+            background-color: grey;
+        }
+        .principal {
+            background-color: blueviolet;
+            width: 1000px;
+        }
+        .cajablanca {
+            text-align: center;
+            background-color: ghostwhite;
+            margin-top: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .texto1 {
+            text-align: left;
+        }
+        .texto2 {
+            color: red;
+            text-align: center;
+        }
+        .Cajagrande {
+            display: flex;
+            height: 350px;
+        }
+        .caja1 {
+            background-color: red;
+            color: white;
+            width: 33%;
+        }
+        .caja2 {
+            background-color: green;
+            color: red;
+            font-weight: bold;
+            width: 33%;
+        }
+        .caja3 {
+            background-color: blue;
+            color: red;
+            width: 33%;
+
+        }
+        .imagen {
+            width: 250px;
+            height: 150px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        .piedepagina {
+            background-color:white;
+            color: red;
+            width: 50%;
+            text-align: right;
+        }
+        .textofin {
+            color: black;
+        }
+    </style>
+    
+<body>
+    <div class="principal">
+
+        <div class="cajablanca">
+            Nombre: Cristina Valverde
+            <br>
+            Curso: TP WEB
+            <div class="texto1">ESTOY A LA IZQUIERDA</div>
+            <div class="texto2">(Tengo fondo goshwite, me separo de mi contenedor 20 puntos por arriba y 10 tanto a la derecha como a la izquierda</div>
+        </div>
+        <div class="Cajagrande">
+            <div class="caja1">
+            CAJA 1
+            <br>
+            (tengo un fondo rojo y ocupo un 33% de mi contenedor)
+    
+            </div>
+    
+            <div class="caja2">
+                CAJA 2
+                <br>
+                (tengo un fondo verde y ocupo un 33% de mi contenedor, además el texto está en negrita)
+    
+            </div>
+    
+            <div class="caja3">
+                <img src="caja3 imagen.png" alt="aqui va una imagen" class="imagen">
+                <br>
+                (tengo un fondo azul y ocupo un 33% de mi contenedor, además la imagen tiene un tamaño de 150 de alto y 250 de ancho).
+                Para centrar la imagen se usa)
+                    <li>display-block</li>
+                    <li>margin-left y right: auto</li>
+                    <li>width 50%</li>
+                
+            </div>      
+    
+    
+        </div>
+    
+            <div class="piedepagina">
+            Soy el pie de página, solo mido la mitad del ancho de la página y 200 de alto, tengo fondo blanco. 
+            Además, el contendor más grande tiene color blueviolet y la página solo mide 1000puntos de ancho y tiene fondo dimgray.
+            <br><br>
+            <span class="textofin">PIE DE PAGINA</span>
+        
+        </div>
+
+    </div>
+
+   
+   
+
+
+</body>
+</html>
